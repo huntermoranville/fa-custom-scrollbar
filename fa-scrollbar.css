@@ -1,0 +1,16 @@
+<style>
+/*width*/
+.glossary-sidebar::-webkit-scrollbar {
+width:auto;
+}
+/*track*/
+.glossary-sidebar::-webkit-scrollbar-track {
+background:CCCCCC;
+border-radius:4px;
+}
+/*thumb pressed*/
+.glossary-sidebar::-webkit-scrollbar-thumb:active {
+background:168E56; 
+border-radius:4px;
+}
+</style>
