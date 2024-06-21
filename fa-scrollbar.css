@@ -1,14 +1,24 @@
 /*width*/
 .glossary-sidebar::-webkit-scrollbar {
-width:auto;
+  width: 10px;
 }
 /*track*/
 .glossary-sidebar::-webkit-scrollbar-track {
-background:CCCCCC;
-border-radius:4px;
+  background: #fff;
+  border-radius: 99px;
+}
+/*thumb*/
+.glossary-sidebar::-webkit-scrollbar-thumb {
+  background: #168e56;
+  border-radius: 99px;
+}
+/*thumb hover*/
+.glossary-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #000;
+  border-radius: 99px;
 }
 /*thumb pressed*/
 .glossary-sidebar::-webkit-scrollbar-thumb:active {
-background:168E56; 
-border-radius:4px;
+  background: #32BA7A;
+  border-radius: 99px;
 }
